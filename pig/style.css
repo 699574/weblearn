@@ -1,0 +1,46 @@
+
+@import url('https://fonts.font.im/css?family=Open+Sans');
+:root{
+    --blue:#396dff;
+    --green:#32c245;
+    --white:#fff;
+    --grey:#f7f7f7;
+
+    --xs:4px;
+    --s:8px;
+    --m:16px;
+    --l:24px;
+}
+.navcontainer{
+    padding: var(--xs) var(--m);
+    background-color: var(--blue);
+
+}
+.navtitle{
+    color:var(--white);
+    font-size: 30px;
+    font-weight: normal;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.u-center{
+    text-align: center;
+}
+.duck{
+    border-radius: --m;
+    -webkit-border-radius: --m;
+    -moz-border-radius: --m;
+    -ms-border-radius: --m;
+    -o-border-radius: --m;
+}
+.u-flex{
+    display: flex;
+}
+.SubContainer{
+    flex-grow: 1;
+    flex-basis: 0;
+}
